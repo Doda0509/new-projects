@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Slider Indicators</title>
+</head>
+<body>
+    <div class="bt">
+        <button class="play">Play Slide</button>
+        <button class="stop">Stop Slide</button>
+    </div>
+    
+    
+    <div class="slider">
+        <div class="img-bx">
+            <img class="active" src="images/img_1.jpg" alt="">
+            <img src="images/img_2.jpg" alt="">
+            <img src="images/img_3.jpg" alt="">
+            <img src="images/img_4.jpg" alt="">
+            <img src="images/img_5.jpg" alt="">
+        </div>
+        
+        <div class="btns">
+            <button class="prev">Prev</button>
+            <button class="next">Next</button>
+        </div>
+        
+        <ul class="indicators">
+            <li class="dots active" data-slide-to="0"></li>
+            <li class="dots" data-slide-to="1"></li>
+            <li class="dots" data-slide-to="2"></li>
+            <li class="dots" data-slide-to="3"></li>
+            <li class="dots" data-slide-to="4"></li>
+        </ul>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

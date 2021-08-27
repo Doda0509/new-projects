@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button{
+    display: flex;
+    margin: 50px 0;
+    padding: 50px 20px;
+    text-transform: capitalize;
+    flex-wrap: wrap;
+}
+
+.tadam{
+    width: 50px;
+    flex-wrap: wrap;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

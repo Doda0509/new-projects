@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: url(depositphotos_14915953-stock-photo-black-scratched-grunge-stucco-wall.jpg);
+}
+.container{
+    position: relative;
+    margin: 200px auto;
+    width: 300px;
+    height: 300px;
+    perspective: 500px;
+}
+.cube{
+    width: inherit;
+    height: inherit;
+    transform-style: preserve-3d;
+    transition: 0.3s;
+}
+.side{
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    border: 5px solid #Fff;
+    font: normal 70px arial;
+    text-align: center;
+    line-height: 300px;
+    color: #Fff;
+    /* backface-visibility: hidden; */
+}
+.front{
+    transform: translateZ(150px);
+}
+.back{
+    transform: rotateY(180deg) translateZ(150px);
+}
+.right{
+    transform: rotateY(90deg) translateZ(150px);
+}
+.left{
+    transform: rotateY(-90deg) translateZ(150px);
+}
+.top{
+    transform: rotateX(90deg) translateZ(150px);
+}
+.bottom{
+    transform: rotateX(-90deg) translateZ(150px);
+}
